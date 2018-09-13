@@ -44,6 +44,15 @@ The best way to redefine the mnemonic or any other config, is just creating a
 
 > This local.conf is ignored by git, so is ok to have your personal config there.
 
+Example of `local.conf`:
+
+```bash
+MNEMONIC="myth like bonus scare over problem client lizard pioneer submit female collect"
+MARKETS=WETH-RDN
+ETHEREUM_RPC_URL=https://rinkeby.infura.io
+NETWORK=rinkeby
+```
+
 # Basic usage
 ## Get account balances
 Get balances for all tokens of an account
